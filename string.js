@@ -5,6 +5,7 @@ async function init() {
     await client.expire("msg:5", 10);
     const result = await client.get("msg:5");
     console.log(result);
+    
 }
 
 init();

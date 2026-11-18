@@ -6,6 +6,7 @@ async function init() {
     const result = await client.get("msg:5");
     console.log(result);
     
+    
 }
 
 init();

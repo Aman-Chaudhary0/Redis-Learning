@@ -7,7 +7,7 @@ async function init() {
     console.log(result);
     
     
-    
+
 }
 
 init();
